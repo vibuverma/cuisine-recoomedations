@@ -4,7 +4,7 @@ from pandas.io.parquet import FastParquetImpl
 from youtubesearchpython import SearchVideos
 import pandas as pd 
 
-data= pd.read_csv("cleaned_data.csv") 
+data= pd.read_csv("artifacts/cleaned_data.csv") 
 
 # Creating empty column with name "recipe"
 if "recipe" not in data.columns:
